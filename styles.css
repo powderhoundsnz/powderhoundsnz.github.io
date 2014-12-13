@@ -1,0 +1,114 @@
+/* Fonts ------------------------*/
+
+body {
+	
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #3e3d42;
+}
+
+h1 {
+	color: #ad0531;
+	font-size: 2.0em;
+	font-family: 'Slabo 27px', serif;
+}
+
+h2 {
+	color: #555;
+	font-size: 1.5em;
+	font-family: 'Slabo 27px', serif;
+}
+
+h3 {
+	color: #555;
+	font-size: 1.5em;
+	font-family: 'Slabo 27px', serif;
+}	
+
+/* Lists ----------------------*/
+
+
+/* Links & Hover Text ----------------------*/
+a {
+	color: blue;
+}
+
+a:hover {
+	color: blue;
+}
+
+.items {
+	padding:0;
+}
+
+/* Background ------------------------*/
+#wrapper {
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 100%;
+	background: #fff;
+	background: url(images/eight_horns.png);
+}
+
+#navigation,
+#container {
+	margin:0 auto;
+	max-width:960px;
+}
+
+/* Images ------------------------*/
+img {
+	width: 100%;
+}
+
+.thumbnail {
+	max-width: 300px;
+}
+
+.banner {
+	max-width: 960px;
+	margin: 0 auto;
+	display: block;
+}
+
+/* Navigation ------------------------*/
+nav ul {
+	padding:0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	margin: 0 50px 0 0
+}
+
+nav ul li a {
+	background: #ccc;
+	width: 90px;
+	display: block;
+	border-radius: 15px 0;
+	padding: 5px 10px;
+	color: #ad0531;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+nav ul li a:hover {
+	background: #999;
+
+}
+
+/* Clearfix ------------------------*/
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+
+}
+
+
